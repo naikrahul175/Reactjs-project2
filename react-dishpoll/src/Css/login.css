@@ -1,0 +1,21 @@
+.login{
+   top: 50%;
+   margin: 50px;
+  
+   
+}
+.form{
+   color: white;
+  width:400px;
+  height:100px;
+  background-color: black;
+  padding:20px;
+ 
+}
+.formFields{
+    margin: 20px;
+}
+.formFields label{
+width: 100px;
+padding-right: 20px;
+}

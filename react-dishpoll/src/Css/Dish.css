@@ -1,0 +1,55 @@
+.dishList{
+    background-color: #EEF2FF;
+}
+.dishList h1{
+   text-align: center;
+
+}
+.dishList .card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+   text-align: center;
+   /* width: 10em; */
+   margin:20px;
+   box-shadow:  0px 5px 10px #b3da94;
+
+}
+
+.card .cardTitle{
+    font-weight: bold;
+    text-transform: uppercase;
+    color:red;
+}
+.card img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.card .description{
+text-align: left;
+margin-left: 0.5em;
+/* font-weight: bold; */
+}
+
+.cardButton{
+    background-color:rgb(13, 163, 13);
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    
+}
+
+.cardButton:hover{
+    box-shadow: 0px 0px 10px green;
+}
+.dishContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+   
+}
+
+
