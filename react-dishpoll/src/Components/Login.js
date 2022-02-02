@@ -8,7 +8,7 @@ export const Login = ({login}) => {
   const handleSubmit=(e) =>{
     e.preventDefault();
 
-   login(email,password);
+   login(email,password); //call to the login function
 }
 
   return( 
